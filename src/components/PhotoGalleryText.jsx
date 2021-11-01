@@ -4,7 +4,7 @@ import './../styles/photoGalleryText.css'
 
 const PhotoGalleryText = (props) => {
     return(
-        <div className="PhotoGalleryText">
+        <section className="PhotoGalleryText">
             <div className="PhotoGalleryText__box">
                 <div className="PhotoGalleryText__title">
                     У НАС:
@@ -34,7 +34,7 @@ const PhotoGalleryText = (props) => {
                     йога
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

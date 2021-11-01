@@ -7,7 +7,7 @@ import SectionHeroBottom from "./SectionHeroBottom";
 
 const SectionHeroTop = (props) => {
     return(
-        <div>
+        <section>
             <div className="sectionHeroTop">
                 <div className="sectionHeroTop__content">
                     <div className="sectionHeroTop__title">
@@ -23,7 +23,7 @@ const SectionHeroTop = (props) => {
                     </video>  
             </div>
             <SectionHeroBottom />
-        </div>
+        </section>
         
     );
 }

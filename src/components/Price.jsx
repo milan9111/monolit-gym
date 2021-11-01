@@ -5,7 +5,7 @@ import './../styles/Price.css';
 
 const Price = (props) => {
     return(
-        <div className="price" id="price-scroll">
+        <section className="price" id="price-scroll">
             <div className="price__box">
                 <div className="price__title">
                     <h2>
@@ -36,7 +36,7 @@ const Price = (props) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

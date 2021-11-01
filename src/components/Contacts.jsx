@@ -6,14 +6,14 @@ import logo from "./../sources/images/logo192.png";
 
 const Contacts = (props) => {
     return(
-        <div className="contacts" id="contacts-scroll">
+        <section className="contacts" id="contacts-scroll">
             <div className="contacts__container">
                 <div className="contacts__title">
                     НАШИ КОНТАКТЫ:
                 </div>
                 <div className="contacts__box">
                         <div className="contacts__logo">
-                            <Link to="home-scroll"><img src={logo} alt="logo" /></Link>
+                            <Link to="home-scroll" spy={true} smooth={true} duration={1000}><img src={logo} alt="logo" /></Link>
                             <p>
                                 Наслаждайся жизнью полной здоровья!
                             </p>
@@ -71,7 +71,7 @@ const Contacts = (props) => {
                         </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

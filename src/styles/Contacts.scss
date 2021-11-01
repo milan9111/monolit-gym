@@ -10,7 +10,7 @@
     }
     &__title{
         text-align: center;
-        font-size: 48px;
+        font-size: 38px;
         color: #ff0018;
         font-weight: 800;
         letter-spacing: 5px;
@@ -26,6 +26,10 @@
             margin-bottom: 30px;
             max-width: 100%;
         }
+        img:hover {
+            cursor: pointer;
+        }
+         
         p {
             font-size: 18px;
             color: #fff;

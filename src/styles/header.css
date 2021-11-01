@@ -16,30 +16,26 @@
   margin: 0 auto;
 }
 
-.header__navbar li {
-  list-style-type: none;
-}
-
-.header__navbar li a {
-  text-decoration: none;
+.header__item {
   color: #fff;
   font-size: 18px;
   font-weight: 600;
 }
 
-.header__navbar li a:hover {
+.header__item img {
+  max-width: 125px;
+}
+
+.header__item:hover {
   cursor: pointer;
+  text-decoration: none;
   color: #737773;
   -webkit-transition: 0.1s;
   transition: 0.1s;
 }
 
-.header__navbar li a:active {
+.header__item:active {
   color: #fc051d;
   -webkit-transition: 0.1s;
   transition: 0.1s;
-}
-
-.header__navbar li img {
-  max-width: 125px;
 }
