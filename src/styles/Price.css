@@ -1,0 +1,47 @@
+.price__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-image: url(../sources/images/bg_price.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.price__title {
+  margin: 150px 0px 0px 225px;
+}
+
+.price__title h2 {
+  font-size: 48px;
+  color: #b8000d;
+  font-weight: 800;
+  letter-spacing: 5px;
+}
+
+.price__services {
+  margin-top: 150px;
+  margin-bottom: 175px;
+}
+
+.price__item {
+  padding-right: 120px;
+  padding-left: 10px;
+  margin-bottom: 25px;
+  font-size: 32px;
+  background-color: #1a1a1a;
+  border-left: 7px solid #fc051d;
+}
+
+.price__item span {
+  display: block;
+  padding-left: 20px;
+  color: #fff;
+}
+
+.price__item_price {
+  font-size: 24px;
+  font-weight: 800;
+}

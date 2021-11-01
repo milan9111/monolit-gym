@@ -1,0 +1,28 @@
+.footer {
+    background-color: #b8000d;
+    max-width: 1600px;
+    margin: 0 auto;
+   
+    &__text{
+        max-width: 1140px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: -7px;
+    }
+    &__monolit {
+        color: #fff;
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    &__creator{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        a {
+            color: #fff;
+            font-size: 12px;
+            text-decoration: none;
+        }
+    }
+}

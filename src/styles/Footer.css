@@ -1,0 +1,35 @@
+.footer {
+  background-color: #b8000d;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.footer__text {
+  max-width: 1140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  margin-top: -7px;
+}
+
+.footer__monolit {
+  color: #fff;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer__creator {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer__creator a {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}

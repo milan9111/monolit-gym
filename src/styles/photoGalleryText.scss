@@ -1,0 +1,23 @@
+.PhotoGalleryText {
+    margin-top: 50px;
+    background-image: url(../sources/images/bg_photoGalleryText.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__box{
+        padding-top: 425px;
+        padding-bottom: 400px;
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    &__title{
+        color: #fc051d;
+        font-size: 42px;
+        font-weight: 800;
+        letter-spacing: 5px;
+    }
+    &__item{
+        color: #fff;
+        font-size: 24px;
+        letter-spacing: 3px;
+    }
+}
