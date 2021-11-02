@@ -13,6 +13,23 @@ const Header = (props) => {
                 <Link className="header__item" activeClass="active" to="price-scroll" spy={true} smooth={true} duration={1000} delay={100}>Прайс</Link>
                 <Link className="header__item" activeClass="active" to="contacts-scroll" spy={true} smooth={true} offset={100} duration={1000} delay={100}>Контакты</Link>
             </nav>
+            <div className="header__logo-mobile">
+                <Link  activeClass="active" to="home-scroll" spy={true} smooth={true} duration={1000} delay={100}><img src={logo} alt='Logo'></img></Link>
+            </div>
+            <div class="header__mobile-toggle">
+                <input type="checkbox" id="mobile-toggle-menu" />
+                <label for="mobile-toggle-menu"><i class="fa fa-bars" aria-hidden="true"></i></label>
+                <ul>
+                    <li><Link className="header__item" activeClass="active" to="home-scroll" spy={true} smooth={true} duration={1000} delay={100}>Главная</Link></li>
+                    <li><Link className="header__item" activeClass="active" to="photo-scroll" spy={true} smooth={true}  duration={1000} delay={100}>Фотогалерея</Link></li>
+                    <li> <Link className="header__item" activeClass="active" to="price-scroll" spy={true} smooth={true} duration={1000} delay={100}>Прайс</Link></li> 
+                    <li><Link className="header__item" activeClass="active" to="contacts-scroll" spy={true} smooth={true} offset={100} duration={1000} delay={100}>Контакты</Link></li>
+                </ul>
+            </div>
+
+
+
+
         </header>
     );
 }

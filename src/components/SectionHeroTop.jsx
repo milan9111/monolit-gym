@@ -17,7 +17,7 @@ const SectionHeroTop = (props) => {
                         главное, что ты не останавливаешься
                     </div>
                 </div>
-                    <video autoPlay muted loop preload="auto" className="sectionHeroTop__video">
+                    <video autoPlay muted loop playsInline webkit-playsInline preload="auto" className="sectionHeroTop__video">
                         <source type="video/mp4" src={videoMp4}/>
                         <source type="video/webm" src={videoWebm}/>
                     </video>  
