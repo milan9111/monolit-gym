@@ -16,9 +16,9 @@ const Header = (props) => {
             <div className="header__logo-mobile">
                 <Link  activeClass="active" to="home-scroll" spy={true} smooth={true} duration={1000} delay={100}><img src={logo} alt='Logo'></img></Link>
             </div>
-            <div class="header__mobile-toggle">
+            <div className="header__mobile-toggle">
                 <input type="checkbox" id="mobile-toggle-menu" />
-                <label for="mobile-toggle-menu"><i class="fa fa-bars" aria-hidden="true"></i></label>
+                <label htmlFor="mobile-toggle-menu"><i className="fa fa-bars" aria-hidden="true"></i></label>
                 <ul>
                     <li><Link className="header__item" activeClass="active" to="home-scroll" spy={true} smooth={true} duration={1000} delay={100}>Главная</Link></li>
                     <li><Link className="header__item" activeClass="active" to="photo-scroll" spy={true} smooth={true}  duration={1000} delay={100}>Фотогалерея</Link></li>

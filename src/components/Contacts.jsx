@@ -63,7 +63,7 @@ const Contacts = (props) => {
                                     Пятница с 8.00 до 22.00
                                 </div>
                                 <div className="timetable__day">
-                                    Суббота с 10.00 до 19.00
+                                    Суббота с 10.00 до 17.00
                                 </div>
                                 <div className="timetable__day">
                                     Воскресенье с 10.00 до 19.00
